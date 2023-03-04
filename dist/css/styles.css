@@ -7645,6 +7645,7 @@ textarea.form-control-lg {
 
 .fw-bolder {
   font-weight: bolder !important;
+  
 }
 
 .lh-1 {
@@ -7808,7 +7809,7 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-image: url("../../images/MLK-at-Hill-Auditorium.jpg") !important;
-  height: 500px; /* You must set a specified height */
+  height: 750px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
