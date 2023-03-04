@@ -7806,7 +7806,8 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-image: url("./images/MLK-at-Hill-Auditorium.jpg");
+  --bs-bg-opacity: 1;
+  background-image: url("./images/MLK-at-Hill-Auditorium.jpg") !important;
 }
 
 .bg-secondary {
