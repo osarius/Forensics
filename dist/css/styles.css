@@ -7676,6 +7676,11 @@ textarea.form-control-lg {
 .text-center {
   text-align: center !important;
 }
+.text-center2 {
+    text-align: center !important;
+    position: relative;
+    top: 370px;
+}
 
 .text-decoration-none {
   text-decoration: none !important;
@@ -7814,6 +7819,7 @@ textarea.form-control-lg {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  position:relative;
 }
 
 .bg-secondary {
