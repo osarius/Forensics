@@ -3,7 +3,7 @@ name: Build and Deploy Jekyll site
 on:
   push:
     branches:
-      - main  # or the branch you want to use
+      - main
 
 jobs:
   build:
@@ -16,13 +16,15 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.7'  # or your Ruby version
+        ruby-version: '2.7'  # Ensure this matches your Ruby version
 
     - name: Install dependencies
-      run: bundle install
-      
+      run: |
+        bundle install
+
     - name: Build site
-      run: bundle exec jekyll build
+      run: |
+        bundle exec jekyll build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
